@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Skranji:regular,700);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/unila.png);
+    position: relative;
+    background-size: cover;
+    background-repeat: repeat;
+    min-height: 100vh;
+    background-position: 0 1px;
+    font-family: "Skranji", sans-serif;
+    /* color: #ffffff; */
+
+
+}
+
+.header {
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+.header .nav a img {
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    box-shadow: 5px 0px 20px  rgba(255, 255, 255, 0.896);
+    margin-right: 1rem;
+    z-index: 99;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.header .nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .nav a span {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 200;
+    font-family: "Skranji", sans-serif ;
+    z-index: 99;
+}
+
+.header .nav a span.snjy{
+    color: transparent;
+    text-shadow: 0 0 1px #ffffff, 5px 0 15px #ffffff, 0 0 15px #0048ff;
+}
+
+
+.header .nav .navigasi {
+    display: flex;
+    list-style: none;
+    margin-top: 2rem;
+    z-index: 99;
+
+}
+
+.navigasi li a {
+    padding: 1rem 0.8rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigasi li a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255);
+
+}
+
+.container{
+    /* flex-wrap: wrap; */
+    padding-top: 1rem;
+    margin-left: 10 rem;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.tabel {
+    display: flex;
+    padding-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 99;
+}
+
+.tabel th,td{
+    padding: 10px;
+    color: #ffffff;
+    border: 5px solid #b28c01;
+    z-index: 99;
+    
+}
+
+table {
+    border-collapse: collapse;
+    z-index: 99;
+}
+
+.teha {
+    background-color: rgb(25, 255, 240);
+    z-index: 99;
+}
+
+th {
+    background-color: rgb(177, 76, 255);
+    z-index: 99;
+}
+
+
+tr:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+td,tr:hover {
+    color: #000000;
+}
+
+h1 {
+    font-size: 40px;
+    mix-blend-mode: darken;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    text-align: center;
+    text-shadow:
+        5px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.catatan img {
+    z-index: 99;
+    width: 2%;
+    height: 2%;
+    margin: 1rem 7rem;
+}
+
+.catatan img, p {
+    position: relative;
+    z-index:99;
+}
+
+p {
+    margin: -3rem 10rem;
+    z-index: 99;
+}
+
+.footer {
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 4rem;
+    
+}
